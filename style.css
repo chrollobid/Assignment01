@@ -35,7 +35,7 @@ nav ul {
 height: 24;
     display: flex;
     justify-content: flex-start;
-    gap: 32px;
+    gap: 50px;
 
 }
 nav ul li {
@@ -63,6 +63,13 @@ background-color: white;
 border: 2px solid #30B868;
 
 }
+nav li a:hover {
+    background-color: #30B868;
+    color: #f7f6f2;
+    padding: 12px 16px;
+    border-radius: 5px;
+}
+
 /* Main Body bg image */
 main .bg-img-layout {
     background:  linear-gradient(rgba(0, 25, 49, 0.8)), url(assets/hero-bg.png);
@@ -86,6 +93,10 @@ font-size: 16px;
 line-height: 16px;
 font-weight: 500;
 text-align: center;
+}
+#btn-3:hover {
+    background-color: #30B868;
+    color: #f7f6f2;
 }
 .bg-img-layout h2 {
         font-family: "Inter", sans-serif;
@@ -151,8 +162,8 @@ color: #627382;
 }
 .card-info {
   
-    margin-top: 30px;
-    box-shadow: 2px 0px 5px 3px rgba(98, 115, 130, .6);
+    margin-top: 50px;
+    box-shadow: 2px 0px 10px 3px rgba(191, 195, 199, 0.6);
     width: 320px;
     height: 300px;
 text-align: center;
@@ -181,6 +192,12 @@ font-size: 16px;
     font-weight: 400;
     color: #627382;
 line-height: 20px;
+}
+
+.card-info:hover, .card-info:hover p {
+background-color: #001931;
+color: #f7f6f2;
+
 }
 /* Brain Section */
 .brain-section {
@@ -236,6 +253,8 @@ margin-bottom: 10px;
     gap: 6px;
     margin: 0;
 }
+
+
 /* early access */
 .early-access {
     margin: 0 120px 120px 120px;
@@ -278,8 +297,23 @@ padding: 120px 120px 30px 120px;
 }
 .footer a {
     margin-right: 10px;
-    /* border: 2px solid white; */
-    border-radius: 50%;
-    object-fit: cover;
-    padding: 10px;
+    
+}
+.footer a i {
+    /* padding: 10px; */
+border-radius: 50%;
+}
+footer hr {
+    background-color: #3e4e5c;
+    border: none;
+    height: 1px;
+}
+footer .copyright {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #f7f6f2;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 400;
+
 }
