@@ -125,5 +125,114 @@ border-radius: 8px;
     font-weight: 500;
 
 }
+.card-heading  h2 {
+        font-family: "Inter", sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top:50px ;
+        margin-bottom: 10px;
+}
+.card-heading p {
+    text-align: center;
+font-size: 16px;
+    font-family: "Inter", sans-serif;
+font-weight: 400;
+color: #627382;
 
 
+}
+.card-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.card-info {
+  
+    margin-top: 30px;
+    box-shadow: 2px 0px 5px 3px rgba(98, 115, 130, .6);
+    width: 320px;
+    height: 300px;
+text-align: center;
+}
+.card-info img {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #F95555;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.card-info h2 {
+
+padding: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.card-info p {
+    text-align: center;
+font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #627382;
+line-height: 20px;
+}
+/* Brain Section */
+.brain-section {
+    margin: 120px;
+display: flex;
+gap: 60px ;
+justify-content: center;
+align-items: center;
+}
+.brain-info h6{
+    font-family: "Inter", sans-serif;
+    color: #469165e4;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 25px;
+    
+}
+.brain-info h2 {
+font-size: 48px;
+line-height: 58px;
+text-align: left;
+font-weight: 700;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+
+.brain-info .brain-text {
+    font-weight: 400;
+    color: #627382;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom:20px ;
+}
+.brain-info .check-circle {
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 16px;
+    color: #000000;
+margin-bottom: 10px;
+    font-weight: 500;
+}
+.check-box {
+    display: flex;
+  gap: 16px;
+    flex-direction: column;
+
+}
+.check-circle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0;
+}
