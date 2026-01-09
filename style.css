@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Shared Style */
+.btn-1 {
+      padding: 12px 15px;
+    background-color: #30B868;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 8px;
+    font-family: "Inter", sans-serif;
+font-weight: 600;
+    
+}
+
+
+
+/* Header Section */
+header {
+margin: 16px 120px;
+
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+nav ul {
+    width: 102;
+height: 24;
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+
+}
+nav ul li {
+    max-width: 365px;
+    list-style: none;
+    margin: 16px 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight:500;
+    line-height: 152%;
+    font-size: 16px;
+    
+    font-family: "Inter", sans-serif;
+}
+.btn-1  button {
+    width: 164px;
+    height: 44px;
+
+}
+.btn-1:hover{ 
+    color: #30B868;
+background-color: white;
+border: 2px solid #30B868;
+
+}
+/* Main Body bg image */
+main .bg-img-layout {
+    background:  linear-gradient(rgba(0, 25, 49, 0.8)), url(assets/hero-bg.png);
+    height:704px;
+    width: 100%;
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+#btn-3 {
+padding: 10px 25px ;
+border-radius: 18px;
+color: #30B868;
+font-family: "Inter", sans-serif;
+font-size: 16px;
+line-height: 16px;
+font-weight: 500;
+text-align: center;
+}
+.bg-img-layout h2 {
+        font-family: "Inter", sans-serif;
+font-size: 72px;
+color: white;
+font-weight: 700;
+line-height: 84px;
+text-transform: capitalize;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.bg-img-layout span {
+    color: #30B868;
+}
+.bg-img-layout p {
+    color: white;
+    font-size: 18px;
+        font-family: "Inter", sans-serif;
+
+line-height: 34px;  
+font-weight: 400;
+text-align: center;
+margin-bottom: 20px;
+
+
+}
+#btn-2 {
+   background-color: transparent;
+   color: white;
+      padding: 11px 16px;
+      border: 3px solid white;
+      margin-left: 10px;
+border-radius: 8px;
+    font-family: "Inter", sans-serif;
+
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+
